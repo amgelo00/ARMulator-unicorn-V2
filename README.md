@@ -184,7 +184,7 @@ mu.mem_write(0x0080, code_bytecode)
 mu.mem_write(0x1000, data_bytecode)
 ```
 
-### 2.3 Execution Pipeline
+### 2.3 Execution 
 
 ```
 Input: ARM Assembly Source Code
@@ -296,7 +296,7 @@ vfp enabled
 
 ### 5.1 Assembler Pipeline
 
-The assembler (`assembler.py`) uses **Keystone Engine** with a custom 5-phase pipeline:
+The assembler (`assembler.py`) uses **Keystone Engine** and work in 5 phase 
 
 ```
 PHASE 1: Parse
