@@ -9,7 +9,7 @@
 ---
 
 ## 1. Introduction
-## THIS IS AN ALTERNATIVE VERSION OF : https://github.com/ByteBea/ARMulator-Unicorn-v1 For further info see the other repo 
+## THIS IS AN ALTERNATIVE VERSION OF : https://github.com/ByteBea/ARMulator-Unicorn-v1. For further info, click this link.
 
 **ARMulator-Unicorn** is a modern ARM emulator built on top of [Unicorn Engine](https://www.unicorn-engine.org/), replacing the legacy pure-Python interpreter with a high-performance JIT compilation backend. It provides an integrated development environment for ARM assembly education, featuring code assembly, execution, debugging, and state visualization.
 
