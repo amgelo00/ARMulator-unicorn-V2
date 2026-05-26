@@ -1,0 +1,16 @@
+SECTION INTVEC
+
+B main
+
+SECTION CODE
+main:
+    LDR R0, =0x40000000    ; R0 = 2.0 in IEEE 754
+    LDR R1, =0x40400000    ; R1 = 3.0 in IEEE 754
+    VMOV S0, R0
+    VMOV S1, R1
+    VADD.F32 S2, S0, S1
+    VMOV R0, S2
+
+B end
+
+SECTION DATA
