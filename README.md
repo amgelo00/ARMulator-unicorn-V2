@@ -294,7 +294,7 @@ vfp enabled
 
 ## 5. How It Works: Detailed Flow
 
-### 5.1 Assembler Pipeline
+### 5.1 Assembler step
 
 The assembler (`assembler.py`) uses **Keystone Engine** and work in 5 phase 
 
