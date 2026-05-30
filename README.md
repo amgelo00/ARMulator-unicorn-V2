@@ -289,6 +289,9 @@ Then:
 1. Write or paste ARM assembly code
 2. Click **Run** or **Step**
 3. View registers, memory, and history in real-time
+   the lable for branch work in this way name:
+   example
+   main: or loop:
 **Output:**
 vfp enabled
 
