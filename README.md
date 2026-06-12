@@ -127,6 +127,7 @@ ARMulator-Unicorn/
 │
 ├── samples/                              # Example ARM assembly files
 │                                          # - testfinale.asm (25 core tests)
+|                                            #-best test NT:some samples are old 
 │                                        
 │                                          # - Other examples
 │
@@ -290,10 +291,10 @@ Then:
 2. Click **Run** or **Step**
 3. View registers, memory, and history in real-time
    
-   n.t:the lable for branch work in this way name:
+   N.T:the lable for branch work in this way name:
    example
    main: or loop:
-
+    for end the program is B end or B.
 **Output:**
 vfp enabled
 
