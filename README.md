@@ -491,6 +491,7 @@ graph LR
 
  ## 7. Known bug
  the aawmbery dosent return the error see the futer develompment for more 
+ for how the assembler work the program is not soft terminate but it end whit an endless loop 
 
 ## 9. License & Acknowledgements
 
