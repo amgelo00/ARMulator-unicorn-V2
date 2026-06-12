@@ -488,7 +488,7 @@ graph LR
 6. Create a standalone executable (.exe / binary) using PyInstaller to simplify distribution and avoid manual dependency installation.
 7. Refactor the Code Export feature (mainweb.py / GUI).
 8. Fixing the explain() part on GUI for new arm istrucion and make visible on the gui the new register 
-9. In the current state, the assembler does not return errors to the UI because the try/except system does not properly capture them. As a result, the UI cannot display the error to the user. In the future, this needs to be fixed so that the UI can receive error information from the assembler and notify the user. I suggest starting with the assembler and then moving on to the bytecode interpreter and the UI.
+9. In the current state, the assembler does not return errors to the UI only in the terminal because the try/except system does not properly capture them. As a result, the UI cannot display the error to the user. In the future, this needs to be fixed so that the UI can receive error information from the assembler and notify the user. I suggest starting with the assembler and then moving on to the bytecode interpreter and the UI.
  ## 7. Known bug
  
  -the asssembler dosent return the error see the futer develompment for more 
