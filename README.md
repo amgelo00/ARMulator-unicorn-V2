@@ -494,7 +494,8 @@ graph LR
  
  -for how the assembler work the program is not soft terminate but it end whit an endless loop 
  for are deep test use testfinale.asm
-- somme test file are with the old syntax so the not work 
+- somme test file are with the old syntax so the not work
+- the assemblre directiv like my var are not suported 
 ## 8. License & Acknowledgements
 
 This project is developed as a final assignment for the Computer Science degree program at **University of Rome Tor Vergata** by Angelo De Felice ,Serena Stefani,Beatrice Principali.
