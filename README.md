@@ -492,12 +492,11 @@ graph LR
  ## 7. Known bug
  
  -the asssembler dosent return the error see the futer develompment for more 
- 
  -for how the assembler work the program is not soft terminate but it end whit an endless loop 
- for are deep test use testfinale.asm
 - somme test file are with the old syntax so the not work
 - the assemblre directiv like my var are not suported
-- some time on linux the b end can not work 
+- some time on linux the b end can not work
+- for a test suit use testfinale.arm in samples 
 ## 8. License & Acknowledgements
 
 This project is developed as a final assignment for the Computer Science degree program at **University of Rome Tor Vergata** by Angelo De Felice ,Serena Stefani,Beatrice Principali.
