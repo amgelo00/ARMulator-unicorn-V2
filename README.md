@@ -490,8 +490,10 @@ graph LR
 9. In the current state the assembery the dosent return te error at the UI because the try/and error system dosent chatch the error for the ui to view son in the futre has to be done suche as the UI can recive the error frome the assembeler and make the usere awre of it (i suggest to strat frome the assembler and later the bytcodeintreptor/and UI )
 
  ## 7. Known bug
- the aawmbery dosent return the error see the futer develompment for more 
- for how the assembler work the program is not soft terminate but it end whit an endless loop 
+ 
+ -the asssembler dosent return the error see the futer develompment for more 
+ 
+ -for how the assembler work the program is not soft terminate but it end whit an endless loop 
 
 ## 9. License & Acknowledgements
 
