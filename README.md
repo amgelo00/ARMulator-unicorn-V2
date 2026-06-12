@@ -487,10 +487,12 @@ graph LR
 6. Create a standalone executable (.exe / binary) using PyInstaller to simplify distribution and avoid manual dependency installation.
 7. Refactor the Code Export feature (mainweb.py / GUI).
 8. Fixing the explain() part on GUI for new arm istrucion and make visible on the gui the new register 
+9. In the current state the assembery the dosent return te error at the UI because the try/and error system dosent chatch the error for the ui to view son in the futre has to be done suche as the UI can recive the error frome the assembeler and make the usere awre of it (i suggest to strat frome the assembler and later the bytcodeintreptor/and UI )
 
+ ## 7. Known bug
+ the aawmbery dosent return the error see the futer develompment for more 
 
-
-## 7. License & Acknowledgements
+## 9. License & Acknowledgements
 
 This project is developed as a final assignment for the Computer Science degree program at **University of Rome Tor Vergata** by Angelo De Felice ,Serena Stefani,Beatrice Principali.
 
