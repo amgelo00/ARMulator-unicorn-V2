@@ -493,6 +493,7 @@ graph LR
  -the asssembler dosent return the error see the futer develompment for more 
  
  -for how the assembler work the program is not soft terminate but it end whit an endless loop 
+ for are deep test use testfinale.asm
 
 ## 8. License & Acknowledgements
 
