@@ -489,14 +489,15 @@ graph LR
 7. Refactor the Code Export feature (mainweb.py / GUI).
 8. Fixing the explain() part on GUI for new arm istrucion and make visible on the gui the new register 
 9. In the current state, the assembler does not return errors to the UI only in the terminal because the try/except system does not properly capture them. As a result, the UI cannot display the error to the user. In the future, this needs to be fixed so that the UI can receive error information from the assembler and notify the user. I suggest starting with the assembler and then moving on to the bytecode interpreter and the UI.
- ## 7. Known bug
- 
- -the asssembler dosent return the error see the futer develompment for more 
- -for how the assembler work the program is not soft terminate but it end whit an endless loop 
-- somme test file are with the old syntax so the not work
-- the assemblre directiv like my var are not suported
-- some time on linux the b end can not work
-- for a test suit use testfinale.arm in samples 
+    
+## 7. Known bug
+- **Error Handling**: The assembler does not return errors. See "Further Development" for more details.
+- **Program Termination**: Due to how the assembler works, programs do not perform a soft terminate; instead, they end with an endless loop.
+- **Syntax Compatibility**: Some test files use outdated syntax and are currently incompatible.
+- **Assembler Directives**: Assembler directives (e.g., my_var) are not supported.
+- **Linux Issue**: The b end instruction may occasionally fail on Linux.
+- **Test Suite**: For testing purposes, please use testfinale.arm located in the samples folder.
+  
 ## 8. License & Acknowledgements
 
 This project is developed as a final assignment for the Computer Science degree program at **University of Rome Tor Vergata** by Angelo De Felice ,Serena Stefani,Beatrice Principali.
@@ -511,5 +512,3 @@ This project is developed as a final assignment for the Computer Science degree 
 - [Capstone Engine](https://www.capstone-engine.org/) - Disassembler
 - [Bottle Framework](https://bottlepy.org/) - Web server
 - [PyWebView](https://pywebview.flowrl.com/) - Desktop GUI
-
--
