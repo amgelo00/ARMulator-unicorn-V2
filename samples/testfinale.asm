@@ -129,8 +129,8 @@ main:
     MOV R7, #0
     MOV R8, #5
 loop_test:
-    ADD R7, R7, #1
     CMP R7, R8
+    ADD R7, R7, #1
     BNE loop_test      ; Se R7 != R8, torna a loop_test
                        ; Risultato: R7 = 5 (loop 5 volte)
     
